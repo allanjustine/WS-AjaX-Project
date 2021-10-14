@@ -80,14 +80,14 @@
                                 alert('Error liking');
                             }
                         });
-                    } else{
+                    }else{
                         if(data['result'] == 'unliked'){
                             $('#heart-' + id).removeClass('fas fa-heart').addClass('far fa-heart');
                             var decrement = parseInt($('#like-' + id).text()) - 1;
                             $('#like-' + id).text(decrement);
                             console.log('second');
                             count = 0;
-                            console.log("count: "+count);
+                            console.log("count: " - count);
                         }
                     }
                 },
