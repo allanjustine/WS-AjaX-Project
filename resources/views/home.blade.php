@@ -87,7 +87,7 @@
                             $('#like-' + id).text(decrement);
                             console.log('second');
                             count = 0;
-                            console.log("count: " - count);
+                            console.log("count: " + count);
                         }
                     }
                 },
